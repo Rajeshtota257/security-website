@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Security Cameras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#demo">Demo</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to Our Nottex Security Systems</h1>
+            <p>Protect your home or business with the best security cameras</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="D:\nottex\camera1.jpg" alt="Camera Model 1">
+            <h3>Camera Model 1</h3>
+            <p>High-quality HD camera For Indoor.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="product">
+            <img src="D:\nottex\camera2.jpg" alt="Camera Model 2">
+            <h3>Camera Model 2</h3>
+            <p>High-quality HD camera For Outdoor.</p>
+            <a href="#">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo">
+        <h2>See it in Action</h2>
+        <p>Watch a live demo of our security cameras in action!</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-link" title="YouTube video demo" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Security Cameras</p>
+    </footer>
+
+</body>
+</html>
